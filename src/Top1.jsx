@@ -1,15 +1,17 @@
 import React from 'react';
 import ReusableMobile from './ReuseableMobile';
 
-const Top=()=>{
+const Top1=()=>{
     return(
-    <div className="top1">
-      <div className="top1-main ">
-      <div class="top1-main-left ">
-      <ReusableMobile/>
-      </div>
-       <div className="top1-main-left  ">
-                <div className="top1-main-left-inner">
+        <div className="top1">
+        <div className="top1-main ">
+            <div className="top1-main-left ">
+              <div  className='top1-mobile'>
+              <ReusableMobile/>
+              </div>
+            </div>
+            <div className="top1-main-right ">
+                <div className="top1-main-right-inner">
                     <div className="top1-first" >
                         <h2>CONNECT.</h2>
                     </div>
@@ -52,7 +54,8 @@ const Top=()=>{
             </div>
         </div>
     </div>
+
     );
 }
 
-export default Top;
+export default Top1;
