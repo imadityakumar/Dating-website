@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+.maindiv {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  display: flex;
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #eb8138;
+  align-items: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+ 
+.div1{
+    height:100%;
+    width: 25%;
+    padding-right: 10px;
+}
+.div2{
+    height:100%;
+    width: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.div3{
+    height:100%;
+    width: 25%;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.div4{
+    height:100%;
+    width: 25%;
+    padding-left: 10px;
+}
+
+.tick {
+  height: 250px;
+  padding-bottom: 25px;
+}
+.reels {
+  height: 250px;
+  padding-bottom: 25px;
+}
+.hello {
+  height: 250px;
+  padding-bottom: 25px;
+} 
+.peoplephone {
+  height: 250px;
+  padding-bottom: 25px;
+}
+
+/*
+.tick {
+  width: 10%;
+  padding-bottom: 65px;
+  height: auto;
+}
+
+.reels {
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 30%;
+  height: auto;
+}
+.hello {
+  padding-left: 0px;
+  padding-right: 90px;
+  padding-bottom: 25px;
+  width: 12%;
+  height: auto;
+}
+
+.peoplephone {
+  padding-left: 50px;
+  padding-right: 10px;
+  width: 30%;
+  height: auto;
+}
+  
+.textsection {
+    display: flex;
+} */
