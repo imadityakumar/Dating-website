@@ -40,51 +40,20 @@
     padding-left: 10px;
 }
 
-.tick {
+
+.img1 {
   height: 250px;
   padding-bottom: 25px;
 }
-.reels {
+.img2 {
   height: 250px;
   padding-bottom: 25px;
 }
-.hello {
+.img3 {
   height: 250px;
   padding-bottom: 25px;
 } 
-.peoplephone {
+.img4 {
   height: 250px;
   padding-bottom: 25px;
 }
-
-/*
-.tick {
-  width: 10%;
-  padding-bottom: 65px;
-  height: auto;
-}
-
-.reels {
-  padding-left: 0px;
-  padding-right: 0px;
-  width: 30%;
-  height: auto;
-}
-.hello {
-  padding-left: 0px;
-  padding-right: 90px;
-  padding-bottom: 25px;
-  width: 12%;
-  height: auto;
-}
-
-.peoplephone {
-  padding-left: 50px;
-  padding-right: 10px;
-  width: 30%;
-  height: auto;
-}
-  
-.textsection {
-    display: flex;
-} */

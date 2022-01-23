@@ -17,10 +17,10 @@ function Fullnavbar() {
                 src={Techrupt}
             >
             </img>
+
             <Router>
                 <Navbar />
-                <Routes>
-                    <Route path='/about' exact component={About} />
+                <Routes><Route path='/about'  exact component={About}  />
                     <Route path='/mission' component={Mission} />
                     <Route path='/join' component={Join} />
                     <Route path='/careers' component={Careers} />
@@ -33,3 +33,4 @@ function Fullnavbar() {
 }
 
 export default Fullnavbar;
+

@@ -1,8 +1,11 @@
 import React from 'react';
 import './App.css';
-import Interactiveicons from './interactiveicons';
+import Interactiveicons1 from './interactiveicons1';
 import FullFooter from './FullFooter';
 import Fullnavbar from './Fullnavbar';
+import Interactiveicons2 from './interactiveicons2.js';
+import Interactiveicons3 from './interactiveicons3.js';
+import Login from './loginpage';
 
 function App() {
   return (
@@ -11,8 +14,12 @@ function App() {
 
       <Fullnavbar />
       
-      <Interactiveicons />
-
+      <Interactiveicons1 />
+      <Interactiveicons2 />
+      <Interactiveicons3 />
+{/* 
+      <Login />
+  */}
       <FullFooter />
 
 
