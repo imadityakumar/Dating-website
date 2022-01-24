@@ -1,5 +1,61 @@
-.form {
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+.contactform {
     text-align: left;
-    padding-left: 200px;
- 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
 }
+
+.form {
+    padding-left: 400px;
+}
+
+input {
+    margin-top:5px;
+    height: 35px;
+    width: 350px;
+    font-family: 'Montserrat';
+    font-size: large;
+}
+
+select {
+    height: 40px;
+    width: 360px;
+    margin-top: 5px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+option {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form > button {
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #eb8138;
+    border: none;
+    margin-left: 110px;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+form >button:hover {
+    color: black;
+    background-color: wheat;
+}
+
+.ios {
+    position: absolute;
+    padding-left: 100px;
+}
+
+ 

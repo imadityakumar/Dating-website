@@ -17,9 +17,8 @@ function App() {
       <Interactiveicons1 />
       <Interactiveicons2 />
       <Interactiveicons3 />
-{/* 
-      <Login />
-  */}
+
+      <Login/>
       <FullFooter />
 
 

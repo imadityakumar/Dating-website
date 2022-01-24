@@ -20,7 +20,8 @@ function Fullnavbar() {
 
             <Router>
                 <Navbar />
-                <Routes><Route path='/about'  exact component={About}  />
+                <Routes>
+                    <Route path='/about' exact component={About} />
                     <Route path='/mission' component={Mission} />
                     <Route path='/join' component={Join} />
                     <Route path='/careers' component={Careers} />
@@ -28,7 +29,7 @@ function Fullnavbar() {
                     <Route path='/theapp' component={theapp} />
                 </Routes>
             </Router>
-        </div>
+        </div >
     );
 }
 
