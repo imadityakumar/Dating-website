@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Interactiveicons1 from './interactiveicons1';
+import FullFooter from './FullFooter';
+import Fullnavbar from './Fullnavbar';
+import Interactiveicons2 from './interactiveicons2.js';
+import Interactiveicons3 from './interactiveicons3.js';
+import Login from './loginpage';
 
 function App() {
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Fullnavbar />
+      
+      <Interactiveicons1 />
+      <Interactiveicons2 />
+      <Interactiveicons3 />
+
+      <Login/>
+      <FullFooter />
+
+
+
     </div>
   );
 }

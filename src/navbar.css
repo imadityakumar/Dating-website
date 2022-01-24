@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+.navbar {
+    text-decoration: none;
+    padding: 25px;
+    padding-left: 625px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    align-items: center;
+    
+}
+
+a:link, :visited {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar > a:hover {
+    color: orange;
+}
+
+.navbar > button {
+    display: flex;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(233, 154, 6);
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color:aliceblue;
+
+}
+
+
+.navbar >button:hover {
+    background-color: rgb(246, 246, 246);
+    color: black;
+}
