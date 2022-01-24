@@ -11,7 +11,7 @@ function App() {
   return (
    <div>
   <Top1/>
-  <Top2/>
+  <Top2/> 
   <Top3/>
   <Top4/>
   <Top5/>

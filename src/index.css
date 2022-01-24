@@ -9,9 +9,9 @@
 }
 
 .video-container video{
-margin-top:20px;
-height: 780px;
-width: 408px;
+margin-top:18px;
+/* height: 780px;
+width: 408px; */
 border-radius: 80px;
 }
 

@@ -7,7 +7,14 @@ const Top1=()=>{
         <div className="top1-main ">
             <div className="top1-main-left ">
               <div  className='top1-mobile'>
-              <ReusableMobile/>
+              <ReusableMobile
+                  vidsrc="https://theluvhut.com/wp-content/uploads/2021/10/lh_375_812.mp4"
+                  imgsrc="https://i0.wp.com/theluvhut.com/wp-content/uploads/2021/10/phone-frame-4.png?w=1140&amp;ssl=1"
+                  imgW="415"
+                  imgH="814"
+                  vidW="408"
+                  vidH="780"
+              />
               </div>
             </div>
             <div className="top1-main-right ">
