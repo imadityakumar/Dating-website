@@ -37,8 +37,8 @@ a:link, :visited {
 
 }
 
-
 .navbar >button:hover {
     background-color: rgb(246, 246, 246);
     color: black;
+    cursor: pointer;
 }

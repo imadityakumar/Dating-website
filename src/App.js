@@ -1,8 +1,7 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import Interactiveicons1 from './interactiveicons1';
-import FullFooter from './FullFooter';
-import Fullnavbar from './Fullnavbar';
 import Interactiveicons2 from './interactiveicons2.js';
 import Interactiveicons3 from './interactiveicons3.js';
 import Top1 from './Top1'
@@ -11,31 +10,57 @@ import Top3 from './Top3';
 import Top4 from './Top4';
 import Top5 from './Top5';
 import Login from './loginpage';
+import Navbar from './navbar';
+import Footer from './footer';
 
 function App() {
   return (
-
     <div className="App">
+      <Router>
+        <Routes>
+          <Route path='/'
+            element={<>
+              <Navbar />
+              <Top1 />
+              <Interactiveicons1 />
+              <Top2 />
+              <Interactiveicons2 />
+              <Top3 />
+              <Interactiveicons3 />
+              <Top4 />
+              <Top5 />
+              <Footer />
+             </>
+            }
+          />
 
-      <Fullnavbar />
-      
 
+          <Route path='/contact'
+            element={<>
+              <Navbar />
+              <Login />
+              <Footer />
+             </>
+            }
+          />
+          
 
+        </Routes>
+        {/* <Fullnavbar />
+        <Top1 />
+        <Interactiveicons1 />
 
-  <Top1/>
-  <Top2/> 
-  <Top3/>
-  <Top4/>
-  <Top5/>
+        <Top2 />
+        <Interactiveicons2 />
 
-      
-      <Interactiveicons1 />
-      <Interactiveicons2 />
-      <Interactiveicons3 />
+        <Top3 />
+        <Interactiveicons3 />
 
-      <Login/>
-      <FullFooter />
+        <Top4 />
+        <Top5 />
 
+        <FullFooter />
+      */} </Router>
 
 
     </div>

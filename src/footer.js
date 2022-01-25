@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Footer.css';
 import Techrupt from './pages/images/techrupt.svg';
 
-function footer() {
+function Footer() {
     return (
         <div className='overallfooter'> 
             <div className='footerlogo'>
@@ -22,4 +22,4 @@ function footer() {
     );
 }
 
-export default footer;
+export default Footer;
